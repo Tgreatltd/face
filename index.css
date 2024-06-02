@@ -1,0 +1,697 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css);
+
+
+
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+
+.face {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+
+}
+.face img{
+    width: 20%;
+}
+.space {
+    width: 5%;
+}
+
+.face div {
+
+    margin-right: 20px;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #F7F7F7;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+ul li {
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(25, 25, 25);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.back {
+    /* background-color: #00299ae3; */
+    background-color: #015CE8;
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/mark_zuck-removebg-preview.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+    /* overflow: hidden; */
+    padding: 20px;
+
+}
+
+.back div {
+    text-align: justify;
+    color: white;
+
+}
+
+.welcome {
+    /* display: flex; */
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.contain {
+    width: 1000%;
+    /* height: 60vh; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.join {
+    
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+.head1 {
+    margin-right: 60px;
+}
+
+.book {
+    color: #0066E3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.to {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+}
+
+.height {
+    height: 26vh;
+}
+
+.help {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+
+}
+
+.all1,
+.all2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #0066E3;
+    line-height: 60px;
+}
+
+.all2 {
+    margin-bottom: 20px;
+}
+
+.officials{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+}
+
+.list{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+}
+
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.div {
+    margin-right: 70px;
+}
+
+.the {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+
+.mation {
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+}
+
+.fedex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.feed {
+    margin-right: 70px;
+
+}
+
+.how {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+
+.win {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.winn1, .winn2 {
+    width: 100%;
+}
+
+.lot{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 20px;
+}
+
+.imagine{
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+}
+
+.pete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.and {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+.petee{
+    margin-bottom: 50px;
+}
+
+.cla {
+    /* margin-right: 70px; */
+}
+
+.claim {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(82, 75, 75);
+}
+
+.won{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.petee img{
+    width: 100%;
+}
+.andd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    text-align: center;
+}
+.claimm{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(82, 75, 75);
+ 
+}
+.testimonies {
+    width: 100%;
+}
+
+.testimonies img {
+    width: 100%;
+}
+
+.show {
+    width: 100%;
+    background-color: #F7F7F7;
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.show1 {
+    margin-right: 70px;
+}
+
+.re {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+
+.prefer {
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+
+}
+
+.wells{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.wells img{
+    width: 100%;
+    height: 50vh;
+}
+
+.assurance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.assure{
+    margin-right: 70px;
+}
+.rance{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+
+.note{
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+    flex-wrap: wrap;
+}
+
+.address{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+
+}
+.contact{
+    margin-right: 20px;
+    margin-bottom: 50px;
+   
+}
+
+.tact{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+
+.thanks{
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(82, 75, 75);
+    /* flex-wrap: wrap; */
+    /* font-size: 13px; */
+}
+
+
+.put1, .put2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form div{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    /* padding: 10px; */
+}
+.put1 input{
+    height: 40px;  
+    width: 100%;
+   
+}
+.put2 input{
+    height: 30px;
+    width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.subject{
+    height: 30px;
+    width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+}
+textarea{
+    width: 100%;
+}
+
+.address button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 23, 23);
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.booker{
+    width: 100%;
+}
+.books {
+    width: 100%;
+}
+
+.gives{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 250, 250);
+    margin-bottom: 50px;
+}
+
+.pro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0066E3;
+    margin-bottom: 10px;
+}
+.cho{
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(156, 124, 124);
+    font-size: 20px;
+}
+
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.eat{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    /* color: #0066E3; */
+    margin-bottom: 10px;
+}
+.lo{
+    /* margin-right: 80px; */
+}
+.will{
+    text-align: justify;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(156, 124, 124);
+    font-size: 20px;
+}
+.width{
+    width: 10%;
+}
+
+.fo input{
+        height: 30px;
+        width: 100%;
+      border: none;
+      border-bottom: 1px solid black;
+}
+.see{
+    height: 20vh;
+}
+.sub{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    /* color: #0066E3; */
+    margin-bottom: 10px;
+}
+
+.fo button{
+    height: 40px;
+    width: 45%;
+    color: white;
+    background-color: rgb(78, 61, 61);
+}
+
+footer{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(223, 220, 220);
+    width: 100%;
+}
+
+
+
+
+@media (max-width:658px){
+    body,html{
+        margin: 0px;
+        padding: 0px;
+    }
+    .the, .how{
+        text-align: center;
+        font-size: 20px;
+    }
+ .mation{
+    text-align: center;
+ }
+
+ .andd{
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+ 
+ 
+}
+
+/* @media (max-width:503px) {
+
+    .info, .fedex, .head, .show, .assurance{
+        display: block;
+
+    }
+    .info img, .fedex img, .head img, .show img, .assurance img{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+    }
+    .address{
+        display: block;
+    }
+   .details{
+    width: 100%;
+   }
+   .put1, .put2{
+    display: block;
+   }
+   .form{
+    width: 100%;
+   }
+   form input{
+    width: 100%;
+   }
+   .user{
+    display: block;
+}
+
+.fo{
+    width: 100%;
+}
+ } */
+
+@media(max-width:622px){
+    .head, .info, .fedex{
+        display: block;
+        width: 100%;
+    
+    }
+.head1, .div, .feed{
+    width: 95%;
+}
+.welcome{
+    font-size: 20px;
+    text-align: center;
+}
+.join{
+    font-size: 10px;
+}
+.book{
+    font-size: 20px;
+}
+}
+
+ /* @media(max-width:547px){
+    *{
+        margin-right: 0px;
+    }
+    .container{
+        width: 100%;
+    }
+    .info, .fedex, .head, .show, .assurance{
+        display: block;
+        width: 100%;
+
+    }
+
+    .info img, .fedex img, .head img, .show img, .assurance img{
+        width: 100%;
+    }
+   .feed{
+    width: 100%;
+   }
+
+    .address{
+        display: block;
+    }
+   .details{
+    width: 100%;
+   }
+   .put1, .put2{
+    display: block;
+   }
+   .form{
+    width: 100%;
+   }
+   form input{
+    width: 100%;
+   }
+   .user{
+    display: block;
+}
+
+.fo{
+    width: 100%;
+}
+ } */
